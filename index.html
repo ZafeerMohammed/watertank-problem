@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Water Tank Visualization</title>
+        <style>
+           
+        </style>
+    </head>
+    <body>
+    
+        <h2>Water Tank Visualization</h2>
+        <p>Walls are shown in gray, and water is shown in blue.</p>
+        <input type="text" id="heightsArr" placeholder="Enter an array of wall heights"><br><br>
+        <button onclick="trapWater()">Visualize</button>
+        <p class="example">Ex: 0,4,0,0,0,6,0,6,4,0</p>
+        <p id="error"></p>
+
+        <div class="infoBox">
+            <div class="legend">
+                <p>Water</p><p class="water symbol"></p>
+            </div>
+            <div class="legend">
+                <p>Wall</p><p class="wall symbol"></p>
+            </div>
+        </div>
+    
+        <div id="grid"></div>
+
+        <p>The amount of water will be stored in the container: <span id="result"></span></p>
+    
+        <script src="source.js"></script>
+    </body>
+    </html>
+</body>
+</html>

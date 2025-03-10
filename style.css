@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+td {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+}
+input, button {
+    height: 30px;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 8px;
+    padding: 3px 10px;
+}
+.infoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.legend {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.symbol {
+    height: 20px;
+    width: 20px;
+}
+.wall {
+    background-color: gray;
+}
+.water {
+    background-color: blue;
+}
+#error {
+    color: red;
+}
+.example {
+    color: rgb(172, 172, 172);
+}
